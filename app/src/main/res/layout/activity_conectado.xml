@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Conectado">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00BCD4"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="73dp"
+            android:gravity="center"
+            android:text="GestCo"
+            android:textSize="48sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/imageButtonNevera"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:background="#FFFFFF"
+            android:onClick="onClick"
+            android:scaleType="fitCenter"
+            android:src="@drawable/neveraaa123" />
+
+        <ImageButton
+            android:id="@+id/imageButtonCongelador"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:background="#FFFFFF"
+            android:onClick="onClick"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/congelador1" />
+
+        <ImageButton
+            android:id="@+id/imageButtonDespensa"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:background="#FFFFFF"
+            android:onClick="onClick"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/despensa1" />
+
+        <ImageButton
+            android:id="@+id/imageButtonCompra"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:background="#FFFFFF"
+            android:onClick="onClick"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/compra" />
+
+        <ImageButton
+            android:id="@+id/imageButtonComidas"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:background="#FFFFFF"
+            android:onClick="onClick"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/plato" />
+
+        <Button
+            android:id="@+id/btSalir"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="#00BCD4"
+            android:onClick="onClick"
+            android:text="@string/salir"
+            android:textColorLink="#00BCD4"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
